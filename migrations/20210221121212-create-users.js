@@ -20,7 +20,7 @@ module.exports = {
         type: Sequelize.STRING(50)
       },
       password: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING(255)
       },
       role: {
         type: Sequelize.BOOLEAN
